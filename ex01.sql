@@ -21,3 +21,5 @@ VALUES ("Giovanna", 22, "49039232422", 20000);
 
 SELECT * FROM tb_colaboradoress WHERE salario > 2000;
 SELECT * FROM tb_colaboradoress WHERE salario <= 2000;
+
+UPDATE tb_colaboradoress SET salario = 2000 WHERE Id = 4;
